@@ -65,3 +65,8 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+/* Paragraph Styling */
+h1 {
+    text-align: center
+}
