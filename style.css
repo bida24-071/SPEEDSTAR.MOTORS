@@ -1,15 +1,19 @@
 body {
     font-family: Arial, sans-serif;
-    font-size: 300%;
+    background-color: #333; /* Dark grey background */
+    color: #ffffff; /* White text */
     margin: 0;
     padding: 0;
-    background-color: #333; /* Dark grey background */
-    color: #fff; /* White text color */
 }
 
 header {
+    background: #444; /* Slightly lighter grey for the header */
+    padding: 20px;
     text-align: center;
-    padding: 20px 0;
+}
+
+.logo {
+    font-size: 300%; /* Logo font size */
 }
 
 nav ul {
@@ -23,28 +27,25 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #ffffff;
+    color: #ffffff; /* White links */
     text-decoration: none;
+    font-size: 1.5em; /* Font size for menu items */
 }
 
-.product {
-    margin: 20px 0;
+main {
+    padding: 20px;
 }
 
-.product img {
-    width: 200px; /* Set the desired image width */
-    height: auto; /* Maintain aspect ratio */
+h2 {
+    color: #f0f0f0; /* Light grey for section titles */
 }
 
-button {
-    margin-top: 10px;
-    padding: 10px 20px;
-    background-color: #e91e63; /* Button color */
-    color: #fff; /* Button text color */
-    border: none;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #d81b60; /* Button hover color */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #444; /* Same as header */
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
