@@ -36,8 +36,9 @@ p {
 }
 
 img {
-    max-width: 300px; /* Set a max width for images */
-    height: auto;
+    width: 100%; /* Set the width to 100% of the container */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 600px; /* Optional: set a max width for larger screens */
     margin: 10px 0;
 }
 
