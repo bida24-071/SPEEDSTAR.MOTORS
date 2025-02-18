@@ -2,20 +2,21 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #2e2e2e; /* Dark grey */
-    color: white; /* Font color */
+    background-color: #333; /* Dark Grey */
+    color: white;
+    text-align: center;
 }
 
 header {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    background-color: #1c1c1c; /* Header background */
+    justify-content: center;
+    background-color: #333; /* Dark Grey */
     padding: 20px;
 }
 
 .logo {
-    height: 100px; /* Adjust logo height */
+    margin-right: 20px;
 }
 
 nav ul {
@@ -31,63 +32,51 @@ nav ul li {
 nav ul li a {
     color: white;
     text-decoration: none;
+    text-transform: uppercase;
 }
 
 main {
-    text-align: center;
-    padding: 50px;
-    height: calc(100vh - 150px); /* Full screen minus header/footer */
+    padding: 50px 20px;
+    height: calc(100vh - 120px); /* Full height minus header and footer */
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-h1 {
-    font-size: 300%; /* 300% font size */
-}
-
-h2 {
-    color: white; /* Font color for subheadings */
+h1, h2 {
+    font-size: 600%;
+    margin: 10px 0;
 }
 
 .shop-button {
-    background-color: royalblue; /* Button color */
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: royalblue;
     color: white;
-    padding: 10px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 20px;
     border: none;
     border-radius: 5px;
-    text-decoration: none;
-    font-size: 20px;
 }
 
 footer {
-    text-align: center;
     padding: 20px;
-    background-color: #1c1c1c; /* Footer background */
+    background-color: #333; /* Dark Grey */
 }
 
 .car-list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 20px;
+    justify-content: center;
 }
 
 .car-item {
-    margin: 10px;
+    margin: 15px;
     text-align: center;
 }
 
 .car-item img {
-    width: 200px; /* Adjust image width */
-    height: auto; /* Maintain aspect ratio */
-}
-
-button {
-    background-color: royalblue; /* Button color */
-    color: white;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+    width: 200px; /* Set the width of car images */
+    height: auto;
 }
