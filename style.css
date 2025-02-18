@@ -16,7 +16,7 @@ header {
 }
 
 .logo {
-    margin-right: 20px;
+    margin-right: 10px;
 }
 
 nav ul {
@@ -36,7 +36,7 @@ nav ul li a {
 }
 
 main {
-    padding: 50px 20px;
+    padding: 100px 40px;
     height: calc(100vh - 120px); /* Full height minus header and footer */
     display: flex;
     flex-direction: column;
@@ -50,14 +50,14 @@ h1, h2 {
 
 .shop-button {
     display: inline-block;
-    padding: 15px 30px;
+    padding: 30px 60px;
     background-color: royalblue;
     color: white;
     text-decoration: none;
     text-transform: uppercase;
-    margin-top: 20px;
+    margin-top: 40px;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 footer {
@@ -72,11 +72,11 @@ footer {
 }
 
 .car-item {
-    margin: 15px;
+    margin: 30px;
     text-align: center;
 }
 
 .car-item img {
-    width: 200px; /* Set the width of car images */
+    width: 400px; /* Set the width of car images */
     height: auto;
 }
