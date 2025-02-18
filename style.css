@@ -6,7 +6,17 @@ body {
     margin: 0;
     padding: 0;
 }
-
+.gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+        }
+        .gallery img {
+            width: 200px;
+            height: auto;
+            border-radius: 10px;
+        }
 /* Header Styles */
 header {
     background-color: #434343;
