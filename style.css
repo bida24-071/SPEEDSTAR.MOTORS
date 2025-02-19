@@ -1,22 +1,23 @@
 body {
     font-family: Arial, sans-serif;
+    line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #333; /* Dark Grey */
-    color: white;
-    text-align: center;
+    background-color: #333333; /* Dark grey */
+    color: white; /* White font color */
 }
 
 header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #333; /* Dark Grey */
+    text-align: center;
     padding: 20px;
 }
 
-.logo {
-    margin-right: 10px;
+h1 {
+    font-size: 600%;
+}
+
+h2 {
+    font-size: 400%;
 }
 
 nav ul {
@@ -32,51 +33,44 @@ nav ul li {
 nav ul li a {
     color: white;
     text-decoration: none;
-    text-transform: uppercase;
+    text-transform: uppercase; /* Uppercase text */
 }
 
 main {
-    padding: 100px 40px;
-    height: calc(100vh - 120px); /* Full height minus header and footer */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-h1, h2 {
-    font-size: 600%;
-    margin: 10px 0;
+    text-align: center; /* Center-align text in main */
+    padding: 20px;
 }
 
 .shop-button {
     display: inline-block;
-    padding: 30px 60px;
-    background-color: royalblue;
+    padding: 15px 30px;
+    font-size: 200%;
     color: white;
+    background-color: royalblue; /* Royal blue */
     text-decoration: none;
-    text-transform: uppercase;
-    margin-top: 40px;
     border: none;
-    border-radius: 10px;
-}
-
-footer {
-    padding: 20px;
-    background-color: #333; /* Dark Grey */
+    border-radius: 5px;
 }
 
 .car-list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: center; /* Center car items */
 }
 
 .car-item {
-    margin: 30px;
+    margin: 10px;
     text-align: center;
 }
 
 .car-item img {
-    width: 400px; /* Set the width of car images */
-    height: auto;
+    width: 200px; /* Adjust image size */
+    height: auto; /* Maintain aspect ratio */
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #35424a;
+    color: #ffffff;
 }
